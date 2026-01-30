@@ -71,3 +71,5 @@ elif menu == "View Matches":
         st.dataframe(df, use_container_width=True)
     else:
         st.info("No matches found yet.")
+st.metric("AI Priority Score", final_score)
+st.caption("AI-assisted decision — final approval by medical authority")
